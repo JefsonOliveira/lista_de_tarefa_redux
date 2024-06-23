@@ -1,7 +1,15 @@
 const TodoList = () => {
   return (
     <div>
-      <h2>TodoList</h2>
+      <button>Todas</button>
+      <button>Completas</button>
+      <button>Incompletas</button>
+      <ul>
+        <li>
+          <span>Algum texto de tarefa</span>
+          <button>Remover</button>
+        </li>
+      </ul>
     </div>
   );
 };

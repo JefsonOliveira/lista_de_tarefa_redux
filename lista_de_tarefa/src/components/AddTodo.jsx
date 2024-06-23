@@ -1,8 +1,9 @@
 const AddTodo = () => {
   return (
-    <div>
-      <h1>AddTodo</h1>
-    </div>
+    <form>
+      <input type="text" placeholder="Adicione uma tarefa..." />
+      <button type="submit">Enviar</button>
+    </form>
   );
 };
 
