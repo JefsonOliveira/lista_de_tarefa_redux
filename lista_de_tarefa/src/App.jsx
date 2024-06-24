@@ -4,7 +4,7 @@ import TodoList from "./components/TodoList";
 function App() {
   return (
     <div className="container">
-      <h1>LISTA DE TAREFAS COMS REDUX</h1>
+      <h1>LISTA DE TAREFAS COM REDUX</h1>
       <AddTodo />
       <TodoList />
     </div>
